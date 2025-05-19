@@ -1,0 +1,88 @@
+body {
+	font-family: "Alcubierre", Sans-serif !important;
+}
+
+.main {
+	width: 100%;
+}
+
+@media (min-width: 922px) {
+    .ast-container {
+        max-width: unset !important;
+    }
+}
+
+.ast-container, .ast-container-fluid {
+	padding: unset !important;
+}
+
+.church-hero-section {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* Overlay */
+.church-hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7); /* Black color with 0.7 opacity */
+    z-index: 1;
+}
+
+/* Content inside hero section */
+.church-hero-content {
+    position: relative;
+    z-index: 2; /* Ensures content is above overlay */
+    text-align: center;
+    padding: 20px;
+}
+
+.church-hero-content h1 {
+    color: white;
+    font-size: 53px;
+    font-family: "Alcubierre", sans-serif;
+}
+
+.product-grid {
+    margin: 80px auto;
+    max-width: 1200px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 0 60px;
+}
+
+.the-product {
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    max-width: calc(33.33% - 30px);
+    text-align: center;
+	position: relative;
+}
+
+.product-grid .the-product h2 {
+    font-size: 18px;
+    font-family: "Alcubierre", sans-serif;
+    letter-spacing: 0.7px;
+}
+
+p.product-price {
+    color: black;
+}
+
+.sale-badge {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 12px;
+    background-color: #EC1D25;
+    color: white;
+    padding: 1px 7px;
+}

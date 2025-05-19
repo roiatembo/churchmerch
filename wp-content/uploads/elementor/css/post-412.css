@@ -1,0 +1,15 @@
+.elementor-412 .elementor-element.elementor-element-2f2bcff{--display:flex;--flex-direction:row;--container-widget-width:initial;--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--background-transition:0.3s;--margin-top:80px;--margin-bottom:0px;--margin-left:0px;--margin-right:0px;}.elementor-412 .elementor-element.elementor-element-b41b053{--display:flex;--background-transition:0.3s;}.elementor-412 .elementor-element.elementor-element-995daa2 .elementor-heading-title{color:var( --e-global-color-astglobalcolor7 );font-family:"Alcubierre", Sans-serif;font-weight:600;}.elementor-412 .elementor-element.elementor-element-035e918{--display:flex;--flex-direction:row;--container-widget-width:initial;--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--background-transition:0.3s;}.elementor-412 .elementor-element.elementor-element-32c64fc{--display:flex;--background-transition:0.3s;}/* Start custom CSS for container, class: .elementor-element-035e918 */.newsletter-form .mailpoet_submit {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+}
+.newsletter-form .mailpoet_submit:hover {
+    background-color: black !important;
+}/* End custom CSS */
+/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Alcubierre';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('https://churchmerch.africa/wp-content/uploads/2024/10/Alcubierre.ttf') format('truetype');
+}
+/* End Custom Fonts CSS */
